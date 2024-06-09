@@ -1,0 +1,30 @@
+.datepicker {
+  padding: 6px 10px 5px 30px !important;
+  font-size: 11px;
+  letter-spacing: 1px;
+  width: 210px;
+  border: 1px solid #eeeeee;
+  border-radius: 16px;
+  font-family: Poppins;
+  color: var(--primary-text-color);
+}
+.datepickerIcon {
+  margin-left: 5px;
+}
+
+.datepickerMonth {
+  padding: 6px 10px 5px 30px !important;
+  font-size: 11px;
+  letter-spacing: 1px;
+  width: 160px;
+  border: 1px solid #eeeeee;
+  border-radius: 16px;
+  font-family: Poppins;
+}
+
+@media (min-width: 768px) {
+  .datepickerMonth {
+    width: 100px;
+    padding: 5px 15px;
+  }
+}
